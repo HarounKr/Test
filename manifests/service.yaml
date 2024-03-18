@@ -8,5 +8,5 @@ spec:
     app: wil-playground
   ports:
     - protocol: TCP
-      port: 9999 # Port sur lequel le service sera accessible à l'extérieur
+      port: 80 # Port sur lequel le service sera accessible à l'extérieur
       targetPort: 8888 # Port correspondant au containerPort du déploiement
